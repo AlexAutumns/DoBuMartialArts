@@ -71,7 +71,7 @@ const App = () => {
                 <div
                     style={{
                         marginTop: `${navbarHeight}px`,
-                        paddingTop: `${navbarHeight * 0.25}px`,
+                        paddingTop: `${navbarHeight * 0.40}px`,
                         paddingBottom: `${footerHeight * 0.25}px`,
                         flex: "1",
                     }}
