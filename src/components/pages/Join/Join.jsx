@@ -87,7 +87,7 @@ const Join = ({ membershipPlan }) => {
         );
 
     return (
-        <div className="flex w-full flex-col justify-center items-center">
+        <div className="flex w-full flex-col justify-center items-center mt-2">
             <h2 className="text-3xl font-bold mb-6 text-center text-white">
                 Welcome To DoBu!
             </h2>
