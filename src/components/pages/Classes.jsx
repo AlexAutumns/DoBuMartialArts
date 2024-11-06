@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import database from "../../assets/database.js";
 
 import JoinButton from "../Buttons/JoinButton/JoinButton.jsx";
-import Table from "../table/Table.jsx";
+import Table from "../Table/Table.jsx";
 
 const defaultImage = database.defaultImage;
 
