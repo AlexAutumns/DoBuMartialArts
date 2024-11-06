@@ -70,8 +70,7 @@ const App = () => {
                 <ScrollToTop />
                 <div
                     style={{
-                        marginTop: `${navbarHeight}px`,
-                        paddingTop: `${navbarHeight * 0.50}px`,
+                        marginTop: `${navbarHeight * 1.5}px`,
                         paddingBottom: `${footerHeight * 0.25}px`,
                         flex: "1",
                     }}
