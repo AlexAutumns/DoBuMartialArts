@@ -20,7 +20,7 @@ import Instructor from "./components/pages/Instructors/Instructor.jsx";
 import About from "./components/pages/About.jsx";
 import Contact from "./components/pages/Contact.jsx";
 import Facilities from "./components/pages/Facilities.jsx";
-import BackToTopButton from "./components/buttons/BackToTopButton.jsx";
+import BackToTopButton from "./components/Buttons/BackToTopButton.jsx";
 
 const ScrollToTop = () => {
     const { pathname } = useLocation();
