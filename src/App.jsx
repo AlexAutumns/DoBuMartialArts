@@ -70,11 +70,11 @@ const App = () => {
                 <ScrollToTop />
                 <div
                     style={{
-                        marginTop: `${navbarHeight * 1.75}px`,
+                        marginTop: `${navbarHeight * 1.50}px`,
                         paddingBottom: `${footerHeight * 0.25}px`,
                         flex: "1",
                     }}
-                    className="text-white bg-fourthColorDark min-w-full min-h-full"
+                    className="text-white bg-fourthColorDark min-w-full"
                 >
                     <Routes>
                         <Route path="/" element={<Home />} />
