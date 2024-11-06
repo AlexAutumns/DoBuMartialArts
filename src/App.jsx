@@ -6,7 +6,7 @@ import {
     useLocation,
 } from "react-router-dom";
 
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar.jsx";
 import Footer from "./components/footer/Footer.jsx";
 
 // Import pages
