@@ -62,7 +62,7 @@ const Classes = () => {
             </div>
 
             {/* Classes Schedule */}
-            <div className="flex flex-col items-center justify-center my-8 space-y-8">
+            <div className="flex flex-col items-center justify-center my-8 space-y-8 w-[95%]">
                 <h2 className="text-[2.5em]">Classes Schedule</h2>
                 {scheduleData.length > 0 ? (
                     <Table data={scheduleData} />
