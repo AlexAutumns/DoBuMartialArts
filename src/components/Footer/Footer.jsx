@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+// Importing Socials Icons
+import { FaFacebook, FaTwitter } from "react-icons/fa";
+
 import database from "../../assets/database";
 
 const Footer = React.forwardRef((props, ref) => {
@@ -80,22 +83,36 @@ const Footer = React.forwardRef((props, ref) => {
             </div>
 
             <div id="socials" className="flex flex-col text-white">
-                <h1 className="text-[1.25em] font-bold justify-center">
-                    Socials
-                </h1>
+                <h1 className="text-[1.25em] font-bold text-center">Socials</h1>
                 <ul className="flex items-center justify-center flex-col w-full space-y-2 py-2 text-[0.9em]">
-                    {socials.map((page, index) => (
-                        <li key={index}>
-                            <a
-                                href={page.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-white hover:text-yellow-200 duration-200"
-                            >
-                                {page.name}
-                            </a>
-                        </li>
-                    ))}
+                    <li>
+                        <a
+                            href="https://www.twitter.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaTwitter
+                                className="text-[2.5em]"
+                                style={{
+                                    color: "#1DA1F2",
+                                }}
+                            />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.facebook.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaFacebook
+                                className="text-[2.5em] bg-white rounded-full"
+                                style={{
+                                    color: "#3b5998",
+                                }}
+                            />
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -107,9 +107,8 @@ const database = {
         {
             name: "Twitter / X",
             link: "https://x.com/home",
-            icon: "",
         },
-        { name: "Facebook", link: "https://www.facebook.com", icon: "" },
+        { name: "Facebook", link: "https://www.facebook.com" },
     ],
 
     facilities: [
